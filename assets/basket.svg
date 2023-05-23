@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.8 129.8">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #c91f3b;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-4 {
+        stroke-width: 4.7004px;
+      }
+
+      .cls-3 {
+        stroke-width: 5.2994px;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>Fichier 9</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Calque_1-2" data-name="Calque 1">
+      <g id="BT_shop">
+        <circle class="cls-1" cx="64.9" cy="64.9" r="64.9"/>
+        <path class="cls-2" d="M23.1565,34.7556A74.7318,74.7318,0,0,1,35.01,33.483S46.1405,67.6317,46.8053,68.9043l42.3123-.1981S99.9141,42.8248,99.8435,41.96l-61.1882.7461"/>
+        <ellipse class="cls-3" cx="49.1601" cy="97.866" rx="6.8388" ry="6.8123"/>
+        <ellipse class="cls-3" cx="86.3278" cy="97.866" rx="6.8388" ry="6.8123"/>
+        <path class="cls-4" d="M46.7988,69.6541S41.731,80.703,41.731,82.2287c0,.5358,46.8451.2276,46.8451.2276"/>
+      </g>
+    </g>
+  </g>
+</svg>

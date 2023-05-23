@@ -1,0 +1,304 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "static/images"
+public_folder: "/images"
+collections:
+  - name: "actualites" # Used in routes, e.g., /admin/collections/blog
+    label: "Actualités" # Used in the UI
+    sortable_fields:
+      fields: ["date", "title"]
+      default:
+        field: "date"
+        direction: "Descending"
+    folder: "content/actualites" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Titre", name: "title", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "dd/MM/yyyy",
+        }
+      - { label: "Image", name: "image", widget: "image" }
+      - {
+          label: "Résumé",
+          name: "description",
+          hint: "Le résumé de l'actualité affiché sur la page générale 'Actualité'",
+          widget: "markdown",
+          required: false,
+        }
+      - {
+          label: "Ne pas faire de lien",
+          hint: "Si activé il n'y aura pas de lien pour lire la suite",
+          name: "noLink",
+          widget: "boolean",
+        }
+      - { label: "contenu", name: "body", widget: "markdown" }
+  - name: "press" # Used in routes, e.g., /admin/collections/blog
+    label: "Articles de presse" # Used in the UI
+    sortable_fields:
+      fields: ["date", "title"]
+      default:
+        field: "date"
+        direction: "Descending"
+    folder: "content/press" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Titre", name: "title", widget: "string" }
+      - {
+          label: "Date",
+          name: "date",
+          widget: "datetime",
+          date_format: "dd/MM/yyyy",
+        }
+      - {
+          label: "Image",
+          name: "image",
+          widget: "image",
+          hint: "Image de présentation",
+        }
+      - {
+          label: "Document à lier (photo, image)",
+          name: "document",
+          widget: "file",
+          default: "/images",
+          required: false,
+        }
+      - {
+          label: "Description",
+          name: "description",
+          widget: "markdown",
+          required: false,
+        }
+      - {
+          label: "Lien vers la ressource",
+          name: "url",
+          widget: "string",
+          required: false,
+        }
+  - name: "products" # Used in routes, e.g., /admin/collections/blog
+    label: "Produits" # Used in the UI
+    sortable_fields:
+      fields: ["title", "order"]
+      default:
+        field: "order"
+        direction: "Ascending"
+    folder: "content/products" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {
+          label: "Ordre",
+          name: "order",
+          widget: "number",
+          value_type: "int",
+          hint: "Le nombre le plus élevé s'affiche en premier",
+        }
+      - {
+          label: "Title",
+          name: "titre",
+          widget: "string",
+          hint: "Le nom du produit",
+        }
+      - {
+          label: "Prix de vente",
+          name: "price",
+          widget: "number",
+          value_type: "float",
+          hint: "Prix du produit TTC",
+        }
+      - {
+          label: "Image du produit",
+          name: "imageProduct",
+          widget: "image",
+          hint: "Image du produit (exemple : couverture du livre)",
+        }
+      - label: "Gallerie d'images"
+        name: "images"
+        widget: "list"
+        fields:
+          - name: image
+            label: Image
+            widget: image
+      - {
+          label: "Type de produit",
+          name: "type",
+          widget: "select",
+          options: ["livre", "pack", "autre"],
+        }
+      - {
+          label: "Informations pour la facture",
+          name: "informations",
+          widget: "text",
+          hint: "Détails des taux de TVA pour les packs",
+        }
+      - {
+          label: "Poids",
+          name: "weight",
+          widget: "number",
+          value_type: "float",
+          hint: "poids du produit en grammes",
+        }
+      - {
+          label: "Taxes",
+          name: "taxes",
+          widget: "string",
+          hint: "Inscrire ici le code TVA Snipcart (en majuscules) : TVA, TVAREDUITE ... ou autre TVA particulière pour les packs par exemple",
+        }
+      - { label: "contenu", name: "body", widget: "markdown", required: false }
+  - name: "team" # Used in routes, e.g., /admin/collections/blog
+    sortable_fields:
+      fields: ["order", "title"]
+      default:
+        field: "order"
+        direction: "Ascending"
+    label: "Equipe" # Used in the UI
+    folder: "content/team" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - label: "Nom"
+        name: "title"
+        widget: "string"
+      - label: "Membre fondateur"
+        name: "isFounder"
+        widget: "boolean"
+      - label: "Ordre"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        hint: "Le plus petit s'affichera en premier"
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        hint: "Photo de portrait"
+      - label: "Informations"
+        name: "description"
+        widget: "markdown"
+        required: false
+      - label: "Lien vers un site web"
+        name: "href"
+        widget: "string"
+        required: false
+  - name: "slider" # Used in routes, e.g., /admin/collections/blog
+    label: "Slider" # Used in the UI
+    folder: "content/slider" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - label: "Ordre"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        hint: "Le plus petit s'affichera en premier"
+      - label: "Titre"
+        name: "title"
+        widget: "string"
+      - label: "Sous titre"
+        name: "subtitle"
+        widget: "string"
+        hint: "S'affiche en dessous du titre dans le carrousel"
+        required: false
+      - label: "Lien"
+        name: "url"
+        widget: "string"
+        hint: "Permet de faire un lien vers une page de votre site. Exemple : https://www.editionslescrocos.com/qui-sommes-nous"
+        required: false
+      - label: "Image"
+        name: "image"
+        widget: "image"
+        hint: "L'image du carrousel"
+      - label: "Couleur du texte"
+        name: "colorText"
+        widget: "select"
+        options: ["black", "white", "red-700", "green-700", "yellow-200"]
+      - label: "Couleur de fond"
+        name: "colorBg"
+        widget: "select"
+        options: ["black", "white", "red-700", "green-700", "yellow-200"]
+    sortable_fields:
+      fields: ["order", "title"]
+      default:
+        field: order
+        direction: Ascending
+  - name: "pages" # Used in routes, e.g., /admin/collections/blog
+    label: "Pages du site" # Used in the UI
+    folder: "content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - label: "Titre"
+        name: "title"
+        widget: "string"
+      - label: "Sous titre"
+        name: "subtitle"
+        widget: "string"
+        hint: "S'affiche en dessous du titre dans le carrousel"
+        required: false
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "contenu", name: "body", widget: "markdown", required: false }
+      - { label: "Code", name: "code", widget: "text", required: false }
+  - name: "config"
+    label: "Configuration du site"
+    files:
+      - name: "general"
+        label: "Informations générales"
+        file: "content/general.json"
+        fields:
+          - name: "presentationTitle"
+            label: "Titre du site"
+            widget: "string"
+          - name: "presentationTextTitle"
+            label: "Titre du site version longue"
+            widget: "text"
+          - name: "presentationText"
+            label: "Texte de présentation"
+            widget: "text"
+          - name: "presentationURL"
+            label: "Page de présentation"
+            widget: "string"
+      - name: "menusConfig"
+        label: "Gestionnaire de menus"
+        file: "content/links.json"
+        fields:
+          - name: "menus"
+            label: "Menu général"
+            widget: "list"
+            fields:
+              - name: "text"
+                label: "Titre du menu"
+                widget: "string"
+              - name: "to"
+                label: "Lien"
+                widget: "string"
+          - name: "footer"
+            label: "Pied de page"
+            widget: "list"
+            fields:
+              - name: "title"
+                label: "Titre du menu"
+                widget: "string"
+              - name: "to"
+                label: "Lien"
+                widget: "string"
+          - name: "networks"
+            label: "Réseaux sociaux"
+            widget: "list"
+            fields:
+              - name: "title"
+                label: "Titre du menu"
+                widget: "string"
+              - name: "image"
+                label: "Image"
+                widget: "string"
+              - name: "href"
+                label: "Lien"
+                widget: "string"

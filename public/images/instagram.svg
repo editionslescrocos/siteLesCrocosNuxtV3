@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.8 129.8">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #c91f3b;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 5.0404px;
+      }
+
+      .cls-3 {
+        stroke-width: 4.3022px;
+      }
+    </style>
+  </defs>
+  <title>BT_insta</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Total">
+      <g id="BT_insta">
+        <circle class="cls-1" cx="64.9" cy="64.9" r="64.9"/>
+        <path class="cls-2" d="M36.3,35.4c8-8.4,50.3-7.7,57.3-1s7.7,51.7,0,58-50.3,7.3-57.3,0S29.3,42.7,36.3,35.4Z"/>
+        <circle class="cls-2" cx="65.4" cy="62.3" r="15.9"/>
+        <circle class="cls-3" cx="85.9" cy="42.3" r="2.2"/>
+      </g>
+    </g>
+  </g>
+</svg>

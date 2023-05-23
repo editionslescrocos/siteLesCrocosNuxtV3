@@ -1,0 +1,28 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@dargmuesli/nuxt-cookie-control": "^5.9.1",
+    "@nuxt/content": "^2.6.0",
+    "@nuxt/image-edge": "^1.0.0-28059208.2abef1b",
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@types/node": "^18",
+    "nuxt": "^3.5.0",
+    "nuxt-simple-sitemap": "^2.6.0"
+  },
+  "dependencies": {
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@splidejs/vue-splide": "^0.6.12",
+    "luxon": "^3.3.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "vue-easy-lightbox": "^1.16.0"
+  }
+}

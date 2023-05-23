@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.8 129.8">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #c91f3b;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #fff;
+        stroke-width: 5.0404px;
+      }
+
+      .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <title>BT_contact</title>
+  <g id="Calque_2" data-name="Calque 2">
+    <g id="Total">
+      <g id="BT_contact">
+        <circle class="cls-1" cx="64.9" cy="64.9" r="64.9"/>
+        <path class="cls-2" d="M89.2,93.4H40A12.0778,12.0778,0,0,1,27.9,81.3V47.4A12.0779,12.0779,0,0,1,40,35.3H89.2a12.0778,12.0778,0,0,1,12.1,12.1V81.3A12.2071,12.2071,0,0,1,89.2,93.4Z"/>
+        <polyline class="cls-3" points="27.9 47.5 64.6 76.2 101.2 47.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

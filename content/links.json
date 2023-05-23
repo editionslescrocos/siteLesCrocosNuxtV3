@@ -1,0 +1,62 @@
+{
+  "menus": [
+    {
+      "text": "Accueil",
+      "to": "/"
+    },
+    {
+      "text": "Actualité",
+      "to": "/actualites"
+    },
+    {
+      "text": "Catalogue",
+      "to": "/products"
+    },
+    {
+      "text": "A propos",
+      "to": "/qui-sommes-nous"
+    },
+    {
+      "text": "Points de vente",
+      "to": "/points-de-vente"
+    },
+    {
+      "text": "Newsletter",
+      "to": "/newsletter"
+    },
+    {
+      "text": "Contact",
+      "to": "/contact"
+    }
+  ],
+  "networks": [
+    {
+      "title": "Instagram",
+      "image": "instagram.svg",
+      "href": "https://www.instagram.com/editionslescrocos/?hl=fr"
+    },
+    {
+      "title": "Facebook",
+      "image": "facebook.svg",
+      "href": "https://www.facebook.com/Les3cigognes/"
+    }
+  ],
+  "footer": [
+    {
+      "title": "Contact",
+      "to": "/contact"
+    },
+    {
+      "title": "Mentions légales",
+      "to": "/mentions-legales"
+    },
+    {
+      "title": "Conditions générales de vente",
+      "to": "/conditions-generales-vente"
+    },
+    {
+      "title": "La presse parle de nous",
+      "to": "/espace-presse"
+    }
+  ]
+}
