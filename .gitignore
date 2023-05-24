@@ -2,6 +2,5 @@ node_modules
 .output
 .nuxt
 dist
-.DS_Store
 yarn.lock
-package.lock.json
+package-lock.json
