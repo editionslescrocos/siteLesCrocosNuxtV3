@@ -88,7 +88,7 @@ p {
   right: 15px;
 }
 
-..splide__arrow svg {
+.splide__arrow svg {
   fill: #c91f3b !important;
 }
 
