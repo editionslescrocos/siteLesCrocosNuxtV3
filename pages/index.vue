@@ -12,18 +12,6 @@ const { data: general } = await useAsyncData("general", () =>
 const { data: slider } = await useAsyncData("slider", () =>
   queryContent("slider").sort({ order: 1 }).find()
 );
-
-if (process.browser) {
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", (user) => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-}
 </script>
 
 <template>

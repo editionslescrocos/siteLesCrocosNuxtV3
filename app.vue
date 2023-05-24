@@ -6,7 +6,7 @@ const {
   isModalActive,
   moduleOptions,
 } = useCookieControl();
-// example: react to a cookie being accepted
+
 watch(
   () => cookiesEnabledIds.value,
   (current, previous) => {
@@ -27,6 +27,6 @@ watch(
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-    <CookieControl locale="en" />
+    <!-- <CookieControl locale="en" /> -->
   </div>
 </template>
