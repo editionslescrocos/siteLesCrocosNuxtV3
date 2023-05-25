@@ -1,9 +1,9 @@
 <script setup>
-const { data: doc } = await useAsyncData("prodcut", () =>
-  queryContent("product" || "index").findOne()
-);
-
 const targetProduct = "products";
+
+const { data: doc } = await useAsyncData(targetProduct, () =>
+  queryContent("pages/product" || "index").findOne()
+);
 
 const { data: books } = await useAsyncData("books", () =>
   queryContent(targetProduct)

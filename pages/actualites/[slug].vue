@@ -2,8 +2,8 @@
 const route = useRoute();
 const slug = route.params.slug;
 
-const { data: doc } = await useAsyncData("document", () =>
-  queryContent("actualites/" + slug || "index").findOne()
+const { data: doc } = await useAsyncData("`actu-${slug}`", () =>
+  queryContent(`actualites/${slug}` || "index").findOne()
 );
 
 useHead({

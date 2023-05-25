@@ -2,7 +2,7 @@
 const route = useRoute();
 const slug = route.params.slug;
 
-const { data: doc } = await useAsyncData("document", () =>
+const { data: doc } = await useAsyncData(`team-${slug}`, () =>
   queryContent(slug).findOne()
 );
 

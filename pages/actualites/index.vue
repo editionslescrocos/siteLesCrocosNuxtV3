@@ -2,18 +2,8 @@
 const route = useRoute();
 const currentPage = route.params.page || 1;
 
-const { data: siteLinks } = await useAsyncData("siteLinks", () =>
-  queryContent("links").findOne()
-);
-
-const { menus, networks, footer } = siteLinks.value;
-
-const { data: general } = await useAsyncData("general", () =>
-  queryContent("general").findOne()
-);
-
 const { data: doc } = await useAsyncData("document", () =>
-  queryContent("actualite").findOne()
+  queryContent("pages/actualite").findOne()
 );
 
 const targetToFetch = "actualites";

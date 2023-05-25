@@ -9,7 +9,7 @@ const { imagePath } = useImagePathTransformer();
 const route = useRoute();
 const { slug } = route.params;
 
-const { data: doc } = await useAsyncData("prodcut", () =>
+const { data: doc } = await useAsyncData(`product-${slug}`, () =>
   queryContent(`products/${slug}`).findOne()
 );
 

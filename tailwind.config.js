@@ -1,4 +1,4 @@
-import colors from "tailwindcss/defaultTheme";
+import colors from "tailwindcss/colors";
 
 module.exports = {
   theme: {
@@ -8,7 +8,6 @@ module.exports = {
         current: "currentColor",
 
         emerald: colors.emerald,
-
         customGreen: {
           DEFAULT: "#3ba23f",
           dark: "#39913c",
@@ -77,6 +76,7 @@ module.exports = {
     "text-red-700",
     "bg-yellow-200",
     "text-yellow-200",
+    "bg-emerald-800",
   ],
   plugins: [],
   content: [

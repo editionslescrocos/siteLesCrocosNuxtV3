@@ -2,7 +2,7 @@
 const { slug } = useRoute().params;
 
 const { data: doc } = await useAsyncData(`document-${slug}`, () =>
-  queryContent(slug).findOne()
+  queryContent(`pages/${slug}`).findOne()
 );
 
 useHead({
@@ -32,7 +32,7 @@ useHead({
       :class="doc.image && 'md:-mt-16'"
     >
       <TitlePage :doc="doc" />
-      <ContentDoc />
+      <ContentRenderer :value="doc" />
     </div>
   </article>
 </template>

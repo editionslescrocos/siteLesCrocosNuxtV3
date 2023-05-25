@@ -1,8 +1,7 @@
 backend:
   name: git-gateway
   branch: main
-local_backend: true
-media_folder: "public/images"
+media_folder: "static/images"
 public_folder: "/images"
 collections:
   - name: "actualites" # Used in routes, e.g., /admin/collections/blog
@@ -100,8 +99,8 @@ collections:
           hint: "Le nombre le plus élevé s'affiche en premier",
         }
       - {
-          label: "Titre",
-          name: "title",
+          label: "Title",
+          name: "titre",
           widget: "string",
           hint: "Le nom du produit",
         }
@@ -228,7 +227,7 @@ collections:
         direction: Ascending
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages du site" # Used in the UI
-    folder: "content/pages" # The path to the folder where the documents are stored
+    folder: "content" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
