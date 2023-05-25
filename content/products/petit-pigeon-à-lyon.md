@@ -1,7 +1,7 @@
 ---
 order: 9
 title: Petit pigeon à Lyon !
-price: 15.9
+price: 14.9
 imageProduct: /images/petitpigeon_previsu.jpg
 images:
   - /images/ouverture.jpg
