@@ -12,6 +12,18 @@ taxes: TVAREDUITE
 ---
 Résumé : Un imagier pour découvrir Lyon sur les traces d'un petit pigeon farceur et imprévisible.
 
+
+
+
+
+
+
+
+
+
+
+
+
 - Auteurs : Alexandra Horvath et Stéphane Perraud
 - Dessinateur : Thomas Bourgeois
 - 30 pages
