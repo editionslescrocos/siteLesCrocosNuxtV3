@@ -4,7 +4,11 @@ title: Petit pigeon à Lyon !
 price: 15.9
 imageProduct: /images/petitpigeon_previsu.jpg
 images:
-  - null
+  - /images/ouverture.jpg
+  - /images/double-st-jean.jpg
+  - /images/double-praline.jpg
+  - /images/parc-tete-dor.jpg
+  - /images/mur-peint.jpg
 type: livre
 informations: TVA 5,5%
 weight: 360
