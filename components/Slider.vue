@@ -88,10 +88,6 @@ p {
   right: 15px;
 }
 
-.splide__arrow svg {
-  fill: #c91f3b !important;
-}
-
 .splide__arrow--next:before,
 .splide__arrow--prev:before {
   height: 48px;

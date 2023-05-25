@@ -2,16 +2,6 @@
 const route = useRoute();
 const currentPage = route.params.page || 1;
 
-const { data: siteLinks } = await useAsyncData("siteLinks", () =>
-  queryContent("links").findOne()
-);
-
-const { menus, networks, footer } = siteLinks.value;
-
-const { data: general } = await useAsyncData("general", () =>
-  queryContent("general").findOne()
-);
-
 const { data: doc } = await useAsyncData("document", () =>
   queryContent("actualite").findOne()
 );
@@ -68,27 +58,20 @@ useHead({
 </script>
 
 <template>
-  <Layout
-    :general="general"
-    :networks="networks"
-    :menus="menus"
-    :footer="footer"
-  >
-    <article>
-      <TopImage :image="doc.image" :imageAlt="doc.imageAlt" />
-      <div
-        class="page relative container mx-auto z-20 md:rounded-lg shadow-xl bg-gray-50 pb-24 px-5 md:px-12 md:w-10/12 lg:w-10/12 xl:w-8/12 content"
-        :class="doc.image && 'md:-mt-16'"
-      >
-        <TitlePage :doc="doc" />
+  <article>
+    <TopImage :image="doc.image" :imageAlt="doc.imageAlt" />
+    <div
+      class="page relative container mx-auto z-20 md:rounded-lg shadow-xl bg-gray-50 pb-24 px-5 md:px-12 md:w-10/12 lg:w-10/12 xl:w-8/12 content"
+      :class="doc.image && 'md:-mt-16'"
+    >
+      <TitlePage :doc="doc" />
 
-        <ContentRenderer :value="doc"> <p></p></ContentRenderer>
+      <ContentDoc />
 
-        <list-alternate :items="actus" followSlug></list-alternate>
-        <Pagination :pagination="pagination" />
-      </div>
-    </article>
-  </Layout>
+      <list-alternate :items="actus" followSlug></list-alternate>
+      <Pagination :pagination="pagination" />
+    </div>
+  </article>
 </template>
 
 <style lang="scss" scoped></style>

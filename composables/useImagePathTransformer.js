@@ -1,5 +1,5 @@
 const useImagePathTransformer = () => {
-  const imagePath = (image) => image.replace("static/", "/");
+  const imagePath = (image) => image.replace("public/", "/");
   return { imagePath };
 };
 

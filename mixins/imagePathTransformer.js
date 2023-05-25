@@ -1,7 +1,7 @@
 export default {
   methods: {
     imagePath(image) {
-      return image.replace("static/", "/");
+      return image.replace("public/", "/");
     },
   },
 };

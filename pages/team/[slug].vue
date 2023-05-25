@@ -3,7 +3,7 @@ const route = useRoute();
 const slug = route.params.slug;
 
 const { data: doc } = await useAsyncData("document", () =>
-  queryContent("actualites/" + slug || "index").findOne()
+  queryContent(slug).findOne()
 );
 
 useHead({
@@ -28,15 +28,13 @@ useHead({
 <template>
   <article>
     <TopImage :image="doc.image" :imageAlt="doc.imageAlt" />
-
     <div
-      class="page relative container z-20 md:rounded-lg shadow-xl bg-white pb-24 px-5 md:px-12 mx-auto w-11/12 content"
+      class="page relative container bg-white shadow-xl md:rounded-lg pb-24 px-5 md:px-12 content mx-auto w-11/12"
       :class="doc.image && 'md:-mt-16'"
     >
       <TitlePage :doc="doc" />
-      <ContentDoc />
 
-      <Back to="/actualites">Retour aux actualités</Back>
+      <ContentDoc />
     </div>
   </article>
 </template>

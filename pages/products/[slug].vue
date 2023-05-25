@@ -6,16 +6,6 @@ import { useImagePathTransformer } from "@/composables/useImagePathTransformer";
 
 const { imagePath } = useImagePathTransformer();
 
-const { data: siteLinks } = await useAsyncData("siteLinks", () =>
-  queryContent("links").findOne()
-);
-
-const { menus, networks, footer } = siteLinks.value;
-
-const { data: general } = await useAsyncData("general", () =>
-  queryContent("general").findOne()
-);
-
 const route = useRoute();
 const { slug } = route.params;
 
@@ -82,79 +72,72 @@ const onHide = () => (visibleRef.value = false);
 </script>
 
 <template>
-  <Layout
-    :general="general"
-    :networks="networks"
-    :menus="menus"
-    :footer="footer"
-  >
-    <article>
-      <TopImage :image="doc.image" :imageAlt="doc.imageAlt" />
-      <div
-        class="relative container z-20 rounded-lg shadow-xl bg-white pb-24 px-5 md:px-12 mx-auto w-11/12 content"
-        :class="doc.image && 'md:-mt-16'"
-      >
-        <div class="md:flex md:flex-row md:flex-row-reverse">
-          <div class="w-full md:w-1/3 pt-4">
-            <nuxt-img
-              :src="imagePath(doc.imageProduct)"
-              :width="imageDimensions.w"
-              :height="imageDimensions.h"
-              quality="80"
-              format="jpeg"
-              fit="outside"
-            />
+  <article>
+    <TopImage :image="doc.image" :imageAlt="doc.imageAlt" />
+    <div
+      class="relative container z-20 rounded-lg shadow-xl bg-white pb-24 px-5 md:px-12 mx-auto w-11/12 content"
+      :class="doc.image && 'md:-mt-16'"
+    >
+      <div class="md:flex md:flex-row md:flex-row-reverse">
+        <div class="w-full md:w-1/3 pt-4">
+          <nuxt-img
+            :src="imagePath(doc.imageProduct)"
+            :width="imageDimensions.w"
+            :height="imageDimensions.h"
+            quality="80"
+            format="jpeg"
+            fit="outside"
+          />
 
-            <Btn v-if="doc.images.length" isFull @click="() => showImg(0)">
-              <template v-if="doc.type === 'livre'"
-                ><img
-                  class="inline mr-2"
-                  :src="book"
-                  height="25"
-                  width="25"
-                />Feuilleter</template
-              >
-
-              <template v-else>Plus d'images</template></Btn
-            >
-          </div>
-
-          <div class="md:mr-5 w-full md:w-2/3">
-            <div class="pt-10">
-              <h1 class="text-2xl mb-3">
-                {{ doc.title }}
-              </h1>
-
-              <p v-if="doc.subtitle" class="text-2xl">
-                {{ doc.subtitle }}
-              </p>
-            </div>
-
-            <p class="text-left my-5">
-              <ContentRenderer :value="doc" />
-            </p>
-
-            <BuyBtn class="mt-3" :product="doc"
+          <Btn v-if="doc.images.length" isFull @click="() => showImg(0)">
+            <template v-if="doc.type === 'livre'"
               ><img
                 class="inline mr-2"
-                :src="cart"
+                :src="book"
                 height="25"
                 width="25"
-              />Commander {{ doc.priceToDiplay }}</BuyBtn
+              />Feuilleter</template
             >
-          </div>
-        </div>
-        <Back to="/products">Retour au catalogue</Back>
 
-        <vue-easy-lightbox
-          :visible="visibleRef"
-          :imgs="doc.images"
-          :index="indexRef"
-          @hide="onHide"
-        ></vue-easy-lightbox>
+            <template v-else>Plus d'images</template></Btn
+          >
+        </div>
+
+        <div class="md:mr-5 w-full md:w-2/3">
+          <div class="pt-10">
+            <h1 class="text-2xl mb-3">
+              {{ doc.title }}
+            </h1>
+
+            <p v-if="doc.subtitle" class="text-2xl">
+              {{ doc.subtitle }}
+            </p>
+          </div>
+
+          <p class="text-left my-5">
+            <ContentDoc />
+          </p>
+
+          <BuyBtn class="mt-3" :product="doc"
+            ><img
+              class="inline mr-2"
+              :src="cart"
+              height="25"
+              width="25"
+            />Commander {{ doc.priceToDiplay }}</BuyBtn
+          >
+        </div>
       </div>
-    </article>
-  </Layout>
+      <Back to="/products">Retour au catalogue</Back>
+
+      <vue-easy-lightbox
+        :visible="visibleRef"
+        :imgs="doc.images"
+        :index="indexRef"
+        @hide="onHide"
+      ></vue-easy-lightbox>
+    </div>
+  </article>
 </template>
 
 <style lang="scss" scoped>

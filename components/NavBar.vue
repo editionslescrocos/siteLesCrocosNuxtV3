@@ -48,19 +48,16 @@ if (typeof window !== "undefined") {
             <div class="mt-8 md:block title-site">
               <div class="flex pb-3 md:border-b-2 md:border-gray-200">
                 <div class="flex-auto text-center md:text-left">
-                  <h1
-                    v-if="isHOne"
-                    class="text-2xl md:text-4xl title-site text-customGreen"
-                  >
+                  <h1 class="text-2xl md:text-4xl title-site text-customGreen">
                     {{ general.presentationTitle }}
                   </h1>
 
-                  <div
+                  <!-- <div
                     v-if="!isHOne"
                     class="text-2xl md:text-4xl title-site text-customGreen"
                   >
                     {{ general.presentationTitle }}
-                  </div>
+                  </div> -->
                 </div>
 
                 <div class="flex-auto">
