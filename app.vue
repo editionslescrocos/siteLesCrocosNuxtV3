@@ -27,6 +27,11 @@ watch(
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-    <!-- <CookieControl locale="en" /> -->
+    <CookieControl locale="fr">
+      <template #modal>
+        <h3>Gestion des cookies</h3>
+        <p>Gestion des préférences des cookies</p>
+      </template>
+    </CookieControl>
   </div>
 </template>

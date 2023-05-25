@@ -30,12 +30,14 @@ export default defineNuxtConfig({
         {
           src: "https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js",
           async: true,
-          type: "text/partytown",
+          type: "text/javascript",
+          defer: true,
         },
         {
           src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
           async: true,
-          type: "text/partytown",
+          type: "text/javascript",
+          defer: true,
         },
       ],
       htmlAttrs: {
@@ -74,7 +76,12 @@ export default defineNuxtConfig({
         name: "Cookies nécessaires au fonctionnement du site",
         description:
           "Nous utilisons l'outil Google Analytics à des fins statistiques afin d'améliorer nos services.",
+
         src: "https://www.googletagmanager.com/gtag/js?id=G-JFDNW9JFSX",
+        targetCookieIds: [
+          "cookie_control_consent",
+          "cookie_control_enabled_cookies",
+        ],
       },
     ],
     locales: ["fr"],
