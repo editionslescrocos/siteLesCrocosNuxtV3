@@ -37,7 +37,7 @@ const { imagePath } = useImagePathTransformer();
             class="md:mb-7 mx-auto"
             :class="portrait ? 'rounded-full border-8 border-customGreen' : ''"
             v-if="item.image"
-            :alt="item.imageAlt"
+            alt=""
           ></nuxt-img>
         </NuxtLink>
 
@@ -50,7 +50,7 @@ const { imagePath } = useImagePathTransformer();
           :width="portrait ? '300' : '500'"
           class="md:mb-7 mx-auto"
           :class="portrait ? 'rounded-full border-8 border-customGreen' : ''"
-          :alt="item.imageAlt"
+          alt=""
         ></nuxt-img>
       </div>
 

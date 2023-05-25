@@ -103,9 +103,9 @@ if (typeof window !== "undefined") {
                     >
                       <nuxt-img
                         :src="`/images/${sn.image}`"
-                        :alt="`logo ${sn.title}`"
                         width="40"
                         height="40"
+                        :alt="`logo du réseau social ${sn.title}`"
                       />
                     </a>
                   </nav>

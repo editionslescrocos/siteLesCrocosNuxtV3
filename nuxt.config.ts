@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     "@nuxt/image-edge",
     "@dargmuesli/nuxt-cookie-control",
     "nuxt-simple-sitemap",
+    "@nuxtjs/partytown",
   ],
 
   css: ["@/assets/css/main.scss"],
@@ -26,8 +27,16 @@ export default defineNuxtConfig({
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       ],
       script: [
-        { src: "https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js" },
-        { src: "https://identity.netlify.com/v1/netlify-identity-widget.js" },
+        {
+          src: "https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js",
+          async: true,
+          type: "text/partytown",
+        },
+        {
+          src: "https://identity.netlify.com/v1/netlify-identity-widget.js",
+          async: true,
+          type: "text/partytown",
+        },
       ],
       htmlAttrs: {
         lang: "fr",

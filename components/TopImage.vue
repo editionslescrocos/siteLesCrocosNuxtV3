@@ -4,7 +4,7 @@
     :src="imagePath(image)"
     fit="cover"
     class="rounded-md shadow-inner border-gray-50 border-2"
-    :alt="imageAlt"
+    alt=""
     format="webp"
     quality="80"
     width="1600"

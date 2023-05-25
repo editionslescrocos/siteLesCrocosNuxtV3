@@ -7,6 +7,7 @@
       width="500"
       fit="cover"
       class="rounded-md"
+      alt="image de présentation de l'actualité"
     ></nuxt-img>
     <h3 class="font-semibold text-xl">
       {{ actu.title }}

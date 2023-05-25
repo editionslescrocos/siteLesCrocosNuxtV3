@@ -87,6 +87,7 @@ const onHide = () => (visibleRef.value = false);
             quality="80"
             format="webp"
             fit="outside"
+            alt="image du produit"
           />
 
           <Btn v-if="doc.images.length" isFull @click="() => showImg(0)">

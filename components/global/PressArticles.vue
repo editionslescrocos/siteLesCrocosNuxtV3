@@ -64,6 +64,7 @@ const years = computed(() => {
               format="webp"
               width="450"
               height="300"
+              alt=""
             />
 
             <h3>{{ article.title }}</h3>

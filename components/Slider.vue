@@ -29,6 +29,7 @@ defineProps({ items: Array });
             format="webp"
             sizes="sm:400px md:700px lg:950px"
             :placeholder="placeHolder"
+            alt="image d'accueil"
           />
         </a>
 
