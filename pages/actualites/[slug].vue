@@ -2,7 +2,7 @@
 const route = useRoute();
 const slug = route.params.slug;
 
-const { data: doc } = await useAsyncData("`actu-${slug}`", () =>
+const { data: doc } = await useAsyncData(`actu-${slug}`, () =>
   queryContent(`actualites/${slug}` || "index").findOne()
 );
 
@@ -34,7 +34,7 @@ useHead({
       :class="doc.image && 'md:-mt-16'"
     >
       <TitlePage :doc="doc" />
-      <ContentDoc />
+      <ContentRenderer :value="doc" />
 
       <Back to="/actualites">Retour aux actualités</Back>
     </div>

@@ -2,7 +2,7 @@
 const route = useRoute();
 const currentPage = route.params.page || 1;
 
-const { data: doc } = await useAsyncData("document", () =>
+const { data: doc } = await useAsyncData(`actus-document`, () =>
   queryContent("pages/actualite").findOne()
 );
 
@@ -19,12 +19,14 @@ const nbPages = Math.ceil(nbItems / itemsPerPage);
 
 const startAt = () => (currentPage - 1) * itemsPerPage;
 
-const { data: actus } = await useAsyncData("actualites", () =>
-  queryContent(targetToFetch)
-    .sort({ date: -1 })
-    .skip(startAt())
-    .limit(itemsPerPage)
-    .find()
+const { data: actus } = await useAsyncData(
+  `actus-list-page${currentPage}`,
+  () =>
+    queryContent(targetToFetch)
+      .sort({ date: -1 })
+      .skip(startAt())
+      .limit(itemsPerPage)
+      .find()
 );
 
 const nextPage = currentPage < nbPages ? currentPage + 1 : null;
@@ -66,7 +68,6 @@ useHead({
       :class="doc.image && 'md:-mt-16'"
     >
       <TitlePage :doc="doc" />
-
       <list-alternate :items="actus" followSlug></list-alternate>
       <Pagination :pagination="pagination" />
     </div>
