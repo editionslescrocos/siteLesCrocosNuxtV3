@@ -26,7 +26,7 @@ defineProps({ items: Array });
             :src="imagePath(item.image)"
             class="w-full image"
             fit="cover"
-            format="jpeg"
+            format="webp"
             sizes="sm:400px md:700px lg:950px"
             :placeholder="placeHolder"
           />

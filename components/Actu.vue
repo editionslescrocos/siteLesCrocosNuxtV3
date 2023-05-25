@@ -2,7 +2,7 @@
   <div>
     <nuxt-img
       :src="imagePath(`/images/${actu.image}`)"
-      format="jpeg"
+      format="webp"
       height="250"
       width="500"
       fit="cover"

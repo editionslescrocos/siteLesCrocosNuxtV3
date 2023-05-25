@@ -85,7 +85,7 @@ const onHide = () => (visibleRef.value = false);
             :width="imageDimensions.w"
             :height="imageDimensions.h"
             quality="80"
-            format="jpeg"
+            format="webp"
             fit="outside"
           />
 

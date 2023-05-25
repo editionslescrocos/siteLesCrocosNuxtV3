@@ -11,7 +11,7 @@ defineProps({ product: Object });
     <NuxtLink :to="product._path">
       <nuxt-img
         :src="imagePath(`${product.imageProduct}`)"
-        format="jpeg"
+        format="webp"
         width="400"
         height="400"
         fit="inside"

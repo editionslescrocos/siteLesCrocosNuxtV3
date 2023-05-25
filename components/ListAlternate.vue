@@ -31,7 +31,7 @@ const { imagePath } = useImagePathTransformer();
         <NuxtLink :to="item._path" v-if="!onlyHref">
           <nuxt-img
             :src="imagePath(item.image)"
-            format="png"
+            format="webp"
             height="400"
             :width="portrait ? '400' : 'auto'"
             class="md:mb-7 mx-auto"
@@ -44,7 +44,7 @@ const { imagePath } = useImagePathTransformer();
         <nuxt-img
           v-if="onlyHref && item.image"
           :src="imagePath(item.image)"
-          format="png"
+          format="webp"
           height="300"
           fit="cover"
           :width="portrait ? '300' : '500'"
