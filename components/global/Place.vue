@@ -27,7 +27,7 @@ defineProps({ title: String, address: String, website: String });
       >
     </p>
     <p>
-      <a v-if="website" :href="website" target="blank">
+      <a v-if="website" :href="`https://${website}`" target="blank">
         <Btn
           ><img
             :src="chain"

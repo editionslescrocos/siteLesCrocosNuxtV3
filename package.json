@@ -6,7 +6,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "dev:cms": "npx @staticcms/proxy-server"
   },
   "devDependencies": {
     "@dargmuesli/nuxt-cookie-control": "^5.9.1",
