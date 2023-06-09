@@ -77,7 +77,7 @@ export default defineNuxtConfig({
         description:
           "Nous utilisons l'outil Google Analytics à des fins statistiques afin d'améliorer nos services.",
 
-        src: "https://www.googletagmanager.com/gtag/js?id=G-JFDNW9JFSX",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-L4315DSBHJ",
         targetCookieIds: [
           "cookie_control_consent",
           "cookie_control_enabled_cookies",
