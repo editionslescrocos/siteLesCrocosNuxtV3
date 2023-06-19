@@ -145,7 +145,7 @@ Une librairie généraliste avec un grand choix de livres sur la mer et le jardi
 Catalogues, revues et livres d'art… Et notre BD ! On est moderne ou on ne l'est pas.
 ::
 
-::place{title="La BéDétik" address="9 Avenue Jean Jaurès, 69007 Lyon" website="canalbd.net/bedetik"}
+::place{title="BéDétik" address="9 Avenue Jean Jaurès, 69007 Lyon" website="canalbd.net/bedetik"}
 Plus vaste, plus lumineuse et encore mieux achalandée… Venez tester la nouvelle adresse.
 ::
 
@@ -154,6 +154,7 @@ Des livres jusqu'au plafond et un joli fond consacré à l'Afrique. On adore fou
 ::
 
 ::place{title="Traits d'Union" address="61 rue des Girondins 69007 Lyon" website="instagram.com/librairietraitsdunion"}
+La nouvelle librairie de Gerland ! Un très grand lieu où l'on a de la place pour flâner.
 ::
 
 ::place{title="Librairie La Madeleine" address="16 Rue de la Madeleine, 69007 Lyon" website="facebook.com/librairielamadeleine"}
@@ -229,17 +230,19 @@ Au milieu des livres… des guitares ! Une librairie des plus originales où Pat
 ::
 
 ::place{title="Gibert Joseph Vaulx-en-Velin" address="Carré de Soie, 2 rue Jacquard, 69120 Vaulx-en-Velin" website="facebook.com/GibertCarreSoie"}
+La meilleure raison d'aller au Carré de Soie…
 ::
 
 ::place{title="L’Insomnie" address="7 place Roger Salengro 69150 Décines-Charpieu" website="instagram.com/librairielinsomnie"}
+Enfin une librairie à Décines ! En été, venez profiter de la terrasse.
 ::
 
 ::place{title="Le P'tit Chassieu" address="2 Rue Louis Pergaud 69680 Chassieu" website="facebook.com/Le-Ptit-Chassieu-101755755538552"}
 Un café-presse-librairie… Et beaucoup plus encore : un lieu de vie !
 ::
 
-::place{title="BD & CO" address="2 av jean Moulin 69720 Saint Laurent de Mure" website="facebook.com/SaintLaurentdeMure"}
-Une petite librairie entièrement consacrée à la BD, aux mangas et aux figurines, tenue par Patrice, un passionné du 9e art.
+::place{title="Récit Music 2" address="2 av jean Moulin 69720 Saint Laurent de Mure" website="facebook.com/SaintLaurentdeMure"}
+La librairie BD&CO a laissé place à Récit Music 2. On trouve ici des BD, des mangas, des figurines… et des instruments de musique !
 ::
 
 ::place{title="Grain de désir" address="2 Rue de la Commanderie, 69720 Saint-Bonnet-de-Mure" website="facebook.com/grain.de.desir"}
@@ -301,10 +304,6 @@ Cette librairie défend les petits éditeurs régionaux. Plein de pépites cach�
 ## Sud de Lyon
 
 ::two-columns
-
-::place{title="Le Syndrome Peter Pan" address="66 Grande Rue, 69600 Oullins" website="syndromepeterpan.fr"}
-Une librairie jeunesse doublée d'un café et d'un restaurant. A croquer.
-::
 
 ::place{title="BD Oullins" address="3 passage de la Ville, 69600 Oullins" website="facebook.com/profile.php?id=100081033263837"}
 Une nouvelle librairie BD en plein centre d'Oullins avec un joli rayon jeunesse.
