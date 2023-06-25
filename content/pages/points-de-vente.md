@@ -117,6 +117,10 @@ La même équipe possède une 2e boutique. Vous comptiez vraiment quitter Lyon s
 Montez les 345 marches de la basilique… Et offrez-vous un livre au retour pour vous reposer.
 ::
 
+::place{title="Musée Lugdunum" address="17 rue Cléberg, 69005 Lyon" website="[boutiquedefourviere.com](https://lugdunum.grandlyon.com/fr/)"}
+Dans la boutique du Musée gallo-romain, vous trouverez certainement les vestiges de nos livres… Ils sont fous ces Crocos !
+::
+
 ::place{title="Le Rameau d'or" address="32 Cours Franklin Roosevelt, 69006 Lyon" website="librairie-rameaudor.com"}
 Une des plus anciennes librairies de Lyon, indépendante et fière de l'être.
 ::
@@ -241,7 +245,7 @@ Enfin une librairie à Décines ! En été, venez profiter de la terrasse.
 Un café-presse-librairie… Et beaucoup plus encore : un lieu de vie !
 ::
 
-::place{title="Récit Music 2" address="2 av jean Moulin 69720 Saint Laurent de Mure" website="facebook.com/SaintLaurentdeMure"}
+::place{title="Récit Music 2" address="2 av jean Moulin 69720 Saint Laurent de Mure" website="https://www.facebook.com/recitmusic""}
 La librairie BD&CO a laissé place à Récit Music 2. On trouve ici des BD, des mangas, des figurines… et des instruments de musique !
 ::
 

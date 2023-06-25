@@ -21,10 +21,6 @@
       "to": "/points-de-vente"
     },
     {
-      "text": "Newsletter",
-      "to": "/newsletter"
-    },
-    {
       "text": "Contact",
       "to": "/contact"
     }
