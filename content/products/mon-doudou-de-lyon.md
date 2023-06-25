@@ -1,18 +1,19 @@
 ---
 order: 8
+title: Mon Doudou de Lyon
 price: 16.5
-taxes: TVAREDUITE
+imageProduct: /images/couv_pers_doudou.jpg
 type: livre
 weight: 600
-title: Mon Doudou de Lyon
-imageProduct: "/images/couv_pers_doudou.jpg"
-image: ''
+taxes: TVAREDUITE
+image: ""
 images:
-- "/images/mon-doudou-de-lyon-extrait.pdf"
-- "/images/mon-doudou-de-lyon-extrait.pdf"
-- "/images/mon-doudou-de-lyon-extrait.pdf"
-invoiceInfos: ''
-
+  - public/images/doudou-1.jpg
+  - public/images/doudou-2.jpg
+  - public/images/doudou-3-jpg
+  - public/images/doudou-4.jpg
+invoiceInfos: ""
+informations: 5,5 %
 ---
 Pour retrouver son doudou, un petit ours est prêt à tout. Y compris s'embarquer à dos de pigeon pour survoler Lyon...
 
