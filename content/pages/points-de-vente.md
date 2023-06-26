@@ -245,7 +245,7 @@ Enfin une librairie à Décines ! En été, venez profiter de la terrasse.
 Un café-presse-librairie… Et beaucoup plus encore : un lieu de vie !
 ::
 
-::place{title="Récit Music 2" address="2 av jean Moulin 69720 Saint Laurent de Mure" website="https://www.facebook.com/recitmusic""}
+::place{title="Récit Music 2" address="2 av jean Moulin 69720 Saint Laurent de Mure" website="https://www.facebook.com/recitmusic"}
 La librairie BD&CO a laissé place à Récit Music 2. On trouve ici des BD, des mangas, des figurines… et des instruments de musique !
 ::
 
