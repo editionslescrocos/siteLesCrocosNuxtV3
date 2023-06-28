@@ -6,3 +6,5 @@ yarn.lock
 package-lock.json
 static_old
 .DS_Store
+.env
+.env.*

@@ -5,10 +5,10 @@
       :disabled="disabled"
       class="w-full plain"
       :class="[{ 'md:w-auto': !isFull }, btnLayout, 'snipcart-add-item']"
-      :data-item-id="product._id"
+      :data-item-id="buyCode"
       :data-item-name="product.title"
       :data-item-price="product.price"
-      :data-item-url="product.path"
+      :data-item-url="product._path"
       :data-item-image="product.imageProduct"
       :data-item-description="product.invoiceInfos"
       :data-item-taxes="product.taxes"
@@ -55,6 +55,11 @@ export default {
     product: {
       type: Object,
       default: null,
+    },
+  },
+  computed: {
+    buyCode() {
+      return this.product._id.replace(".md", "").split(":").slice(-1)[0];
     },
   },
 };

@@ -14,6 +14,13 @@ export default defineNuxtConfig({
   ],
 
   css: ["@/assets/css/main.scss"],
+  runtimeConfig: {
+
+    // Public keys that are exposed to the client
+    public: {
+      snipcart: process.env.NUXT_SNIPCART || 'Key'
+    }
+  },
 
   app: {
     head: {
@@ -22,13 +29,13 @@ export default defineNuxtConfig({
         { rel: "preconnect", href: "https://cdn.snipcart.com" },
         {
           rel: "stylesheet",
-          href: "https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.css",
+          href: "https://cdn.snipcart.com/themes/v3.5.0/default/snipcart.css",
         },
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       ],
       script: [
         {
-          src: "https://cdn.snipcart.com/themes/v3.2.1/default/snipcart.js",
+          src: "https://cdn.snipcart.com/themes/v3.5.0/default/snipcart.js",
           async: true,
           type: "text/javascript",
           defer: true,

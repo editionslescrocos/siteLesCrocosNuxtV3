@@ -117,7 +117,7 @@ La même équipe possède une 2e boutique. Vous comptiez vraiment quitter Lyon s
 Montez les 345 marches de la basilique… Et offrez-vous un livre au retour pour vous reposer.
 ::
 
-::place{title="Musée Lugdunum" address="17 rue Cléberg, 69005 Lyon" website="[boutiquedefourviere.com](https://lugdunum.grandlyon.com/fr/)"}
+::place{title="Musée Lugdunum" address="17 rue Cléberg, 69005 Lyon" website="https://lugdunum.grandlyon.com/fr/"}
 Dans la boutique du Musée gallo-romain, vous trouverez certainement les vestiges de nos livres… Ils sont fous ces Crocos !
 ::
 
@@ -229,7 +229,7 @@ Enfin une librairie en plein centre de Saint-Priest !
 Ici, on défend beaucoup les éditeurs et les auteurs locaux. Un détour par Meyzieu s'impose.
 ::
 
-::place{title="Récit Music" address="72 rue de la République 69740 Genas" website="recitmusic.fr"}
+::place{title="Récit Music" address="72 rue de la République 69740 Genas" website="https://www.recitmusic.fr/"}
 Au milieu des livres… des guitares ! Une librairie des plus originales où Patrick réunit ses deux passions, la musique et la littérature.
 ::
 
@@ -245,7 +245,7 @@ Enfin une librairie à Décines ! En été, venez profiter de la terrasse.
 Un café-presse-librairie… Et beaucoup plus encore : un lieu de vie !
 ::
 
-::place{title="Récit Music 2" address="2 av jean Moulin 69720 Saint Laurent de Mure" website="https://www.facebook.com/recitmusic"}
+::place{title="Récit Music 2" address="2 av jean Moulin 69720 Saint Laurent de Mure" website="https://www.recitmusic.fr/"}
 La librairie BD&CO a laissé place à Récit Music 2. On trouve ici des BD, des mangas, des figurines… et des instruments de musique !
 ::
 

@@ -15,6 +15,8 @@ const { menus, networks, footer } = siteLinks.value;
 const { data: general } = await useAsyncData("general", () =>
   queryContent("general").findOne()
 );
+
+const config = useRuntimeConfig();
 </script>
 
 <template>
@@ -36,11 +38,7 @@ const { data: general } = await useAsyncData("general", () =>
     </div>
 
     <Footer :footer="footer" />
-    <div
-      hidden
-      id="snipcart"
-      data-api-key="OWQyYWZjYWMtMjExOC00ZmU3LThlM2YtZjRkYmI4ZWNiMGNiNjM3NTAyOTQxNzQ2NTE0NjYw"
-    ></div>
+    <div hidden id="snipcart" :data-api-key="config.public.snipcart"></div>
   </div>
 </template>
 
