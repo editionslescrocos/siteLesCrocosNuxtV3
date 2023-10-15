@@ -5,6 +5,6 @@ image: /images/tempo-rcf.jpg
 document: /images/tempo-rcf.jpg
 description: >
   Les crocos sur RCF Lyon ! Pour écouter l'émission :
-  [[https://linktr.ee/rcflyon](https://linktr.ee/rcflyon)](https://linktr.ee/rcflyon)
+  [[[https://linktr.ee/rcflyon](https://linktr.ee/rcflyon)](https://linktr.ee/rcflyon)]
 url: https://linktr.ee/rcflyon
 ---
