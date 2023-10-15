@@ -1,6 +1,6 @@
 ---
 title: RCF Lyon
-date: 2023-10-15T15:12:44.923+02:00
+date: 2023-10-14T15:12:44.000+02:00
 image: /images/tempo-rcf.jpg
 document: /images
 description: >
