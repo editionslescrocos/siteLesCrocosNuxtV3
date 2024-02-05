@@ -1,8 +1,8 @@
 ---
 order: 0
-title: Toute notre actualité et l'actualité du livre en un clic
+title: Ce dimanche, rendez-vous à Ambérieu-en-Bugey !
 url: https://www.editionslescrocos.com/actualites
-image: /images/bandeau-dedicace.jpg
+image: /images/bandeau-horizontal.jpg
 colorText: black
 colorBg: white
 ---
