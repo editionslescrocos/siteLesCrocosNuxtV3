@@ -18,10 +18,10 @@ Une petite librairie, sympa et décontractée, en haut des pentes de la Croix-Ro
 ::
 
 ::place{title="Oh my gone" address="3 rue du Colonel Chambonnet, 69002 Lyon" website="ohmygone.com/fr"}
-Juste en face du Mur des Lyonnais, une boutique de souvenirs de Lyon… qui vend aussi des livres !
+Tout proche de Bellecour, une boutique de souvenirs de Lyon… qui vend aussi des livres !
 ::
 
-::place{title="Librairie Adrienne" address="70 rue de la Charité, 69002 Lyon" website="https://librairie-adrienne.com"}
+::place{title="Librairie Adrienne" address="70 rue de la Charité, 69002 Lyon" website="librairie-adrienne.com"}
 Le nom de cette librairie rend hommage à Adrienne Monnier, l’une des premières femmes à avoir monté une librairie en France
 ::
 
@@ -49,7 +49,7 @@ Très grande librairie sur trois rues. La partie BD est accessible par le quai.
 Des mangas, des comics, des BD… Et cette adresse 100 % jeunesse.
 ::
 
-::place{title="Gones of Lyon" address="21 rue Victor Hugo 69002 Lyon" website="https://instagram.com/gones_of_lyon"}
+::place{title="Gones of Lyon" address="21 rue Victor Hugo 69002 Lyon" website="instagram.com/gones_of_lyon"}
 Une boutique de souvenirs qui n’oublie pas de vendre des livres !
 ::
 
@@ -109,14 +109,6 @@ Perché sur la colline de Saint-Just, Xavier vous attend avec ses conseils avis�
 La boutique propose des marionnettes, des livres sur Lyon et notre BD en deux langues. Accessible même sans visiter le musée (ce qui serait dommage).
 ::
 
-::place{title="Souvenirs de Lyon" address="46 rue Saint-Jean, 69005 Lyon" website="souvenirs-de-lyon.com"}
-Vous comptiez vraiment quitter Lyon sans acheter un exemplaire de notre BD ?
-::
-
-::place{title="Souvenirs de Lyon" address="8 place Saint-Jean, 69005 Lyon" website="souvenirs-de-lyon.com"}
-La même équipe possède une 2e boutique. Vous comptiez vraiment quitter Lyon sans vous offrir une 2e BD ? En anglais cette fois…
-::
-
 ::place{title="La boutique de Fourvière" address="7 place de Fourvière, 69005 Lyon" website="boutiquedefourviere.com"}
 Montez les 345 marches de la basilique… Et offrez-vous un livre au retour pour vous reposer.
 ::
@@ -149,7 +141,7 @@ Avant d'aller bouquiner au Parc de la Tête d'Or, un détour ici s'impose.
 Une librairie généraliste avec un grand choix de livres sur la mer et le jardin. Et plein de pépites jeunesse !
 ::
 
-::place{title="Comics Zone" address="322 rue Garibaldi 69007 Lyon" website="https://www.comics-zone.com/fr/"}
+::place{title="Comics Zone" address="322 rue Garibaldi 69007 Lyon" website="comics-zone.com/fr/"}
 Le temple de la BD, du manga et du comics
 ::
 
@@ -181,7 +173,7 @@ Il manquait une librairie à Gerland. C'est réparé. Vagalume est spécialisée
 On aime venir y dénicher un livre de voyage et bien sûr… Des livres jeunesse !
 ::
 
-::place{title="Bébé Frog" address="113 av des Frères lumière 69008 Lyon" website="https://bebe-frog.com/"}
+::place{title="Bébé Frog" address="113 av des Frères lumière 69008 Lyon" website="bebe-frog.com/"}
 Des jeux, des jouets, mais aussi des livres pour les tout petits !
 ::
 
@@ -283,7 +275,7 @@ De la presse, de la papeterie, des jeux… Et de plus en plus de livres !
 Ici poussent en permanence de nouveaux livres pour petits et grands enfants…
 ::
 
-::place{title="Librairie des univers" address="39 av du Chater, 69340 Francheville" website="https://www.facebook.com/librairiedesunivers/"}
+::place{title="Librairie des univers" address="39 av du Chater, 69340 Francheville" website="facebook.com/librairiedesunivers/"}
 Enfin une librairie à Francheville ! Merci Benoît pour cette ouverture tant attendue.
 ::
 
@@ -385,30 +377,8 @@ Un vrai commerce de proximité avec des choix éthiques, des coups de cœur et d
 Des livres, de la papeterie, des jeux, des jouets… Un vaste lieu pour se faire plaisir
 ::
 
-::place{title="La Boussole Val d’Oingt" address="1 rue docteur Burdet 69620 Le Bois d’Oingt" website="https://www.facebook.com/laboussolevaldoingt"}
+::place{title="La Boussole Val d’Oingt" address="1 rue docteur Burdet 69620 Le Bois d’Oingt" website="facebook.com/laboussolevaldoingt"}
 Cassiopée n’est plus. Bienvenue à la nouvelle librairie du Bois d’Oingt !
-::
-
-::
-
-## Beaujolais-Sud Bourgogne
-
-::two-columns
-
-::place{title="Les lettres minuscules" address="299 Rue de la République, 69430 Beaujeu" website="facebook.com/lettres.minuscules"}
-Pas d'autre librairie à 30 km à la ronde… Pas grave, celle-ci a tout pour plaire. De l'occasion, du neuf, des animations et même un mini salon de thé… Que du bonheur !
-::
-
-::place{title="Le Cadran lunaire" address="27 Rue Franche, 71000 Mâcon" website="cadran-lunaire.fr"}
-La petite librairie jaune fait une large place à la jeunesse… Et aux découvertes !
-::
-
-::place{title="Decitre Crêches-sur-Saône" address="Centre commercial les Bouchardes, D906, 71680 Crêches-sur-Saône" website="facebook.com/decitrecrechessursaone"}
-Mais non, tout n'est pas à jeter dans les centres commerciaux ! Il y aussi de vraies librairies, qui aiment et défendent les auteurs locaux.
-::
-
-::place{title="Le Jardin secret" address="18 Rue Lamartine, 71250 Cluny" website="facebook.com/Le-Jardin-Secret-101152039017432"}
-La librairie de Cluny a changé de nom et de décor. Elle s'est aussi dotée d'un sympathique salon de thé.
 ::
 
 ::
@@ -429,7 +399,7 @@ Une librairie géniale, fondée par un collectif d'habitants. Aux manettes : Aud
 Autrefois, Rebecca tenait une pharmacie… Existe-t-il meilleur médicament qu'un livre ?
 ::
 
-::place{title="D en Bulle" address="24 place des Halles 01400 Châtillon-sur-Chalaronne" website="https://www.facebook.com/Librairie.D.en.bulle/"}
+::place{title="D en Bulle" address="24 place des Halles 01400 Châtillon-sur-Chalaronne" website="facebook.com/Librairie.D.en.bulle/"}
 Une librairie 100 % BD qui laisse une belle place à la jeunesse
 ::
 
