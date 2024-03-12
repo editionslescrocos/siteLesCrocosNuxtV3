@@ -1,8 +1,8 @@
 ---
 order: 0
-title: Ce dimanche, rendez-vous à Ambérieu-en-Bugey !
+title: Les 6 et 7 avril, tous à Villeurbanne !
 url: https://www.editionslescrocos.com/actualites
-image: /images/bandeau-horizontal.jpg
+image: /images/villeurbanne-fete-livre.jpg
 colorText: black
 colorBg: white
 ---
