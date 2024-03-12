@@ -6,5 +6,7 @@ description: |
   Nous serons sur le stand de la librairie Expérience Bis
 noLink: false
 ---
-En présence de Thomas Bourgeois, dessinateur du Doudou de Lyon. Plus d'infos : [https://fetedulivre.villeurbanne.fr/](https://fetedulivre.villeurbanne.fr/)
+En présence de Thomas Bourgeois, dessinateur du Doudou de Lyon. 
+
+Plus d'infos : [https://fetedulivre.villeurbanne.fr/](https://fetedulivre.villeurbanne.fr/)
 
