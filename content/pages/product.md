@@ -7,5 +7,5 @@ description: >-
   d'ouvrages commandés, la participation aux frais de port est un montant
   forfaitaire de 3,50 euros. 
 
-  Nous vous enverrons vos livres dans la semaine par Colissimo. Le délai peut être plus long pour les envois à l'étranger (tarif Livres et brochures).
+  Nous vous enverrons vos livres dans la semaine par Colissimo. En revanche, nous cessons d'envoyer des livres à l'étranger en raison de coûts trop élevés et de difficultés à bénéficier du tarif "Livres et brochures".
 ---
