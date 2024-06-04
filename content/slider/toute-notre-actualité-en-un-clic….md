@@ -1,8 +1,10 @@
 ---
 order: 0
-title: Les 6 et 7 avril, tous à Villeurbanne !
-url: https://www.editionslescrocos.com/actualites
-image: /images/fete-livre.jpg
+title: Notre petit nouveau !
+subtitle: Tu as entre 3 et 6 ans et tu as peur du loup ? Bas les pattes ! Ça va
+  bien se passer…
+url: ""
+image: /images/bandeau-bas-les-pattes.jpg
 colorText: black
 colorBg: white
 ---
