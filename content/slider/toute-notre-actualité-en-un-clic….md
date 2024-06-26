@@ -1,9 +1,8 @@
 ---
 order: 0
-title: Tu as entre 3 et 6 ans et tu as peur du loup ? Bas les pattes ! Ça va
-  bien se passer…
+title: Avec Bas les pattes, tu n'auras plus jamais peur du loup !
 subtitle: ""
-url: ""
+url: https://www.editionslescrocos.com/products/bas-les-pattes
 image: /images/bas-les-pattes-copie.jpg
 colorText: black
 colorBg: white
