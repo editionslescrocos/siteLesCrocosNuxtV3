@@ -1,7 +1,6 @@
 ---
 title: Nos livres
-subtitle: "LES COMMANDES INTERNET SONT SUSPENDUES ENTRE LE MERCREDI 10 JUILLET
-  ET LE SAMEDI 27 JUILLET. MERCI DE VOTRE COMPREHENSION "
+subtitle: ""
 description: >-
   Vous pouvez trouver nos livres en librairie dans l'agglomération lyonnaise ou
   nous les commander directement sur notre site Internet. Quel que soit le
