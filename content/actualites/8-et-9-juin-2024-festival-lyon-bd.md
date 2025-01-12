@@ -5,4 +5,7 @@ image: /images/lyon-bd.png
 description: "\n\n\n"
 noLink: false
 ---
-On vous attend dans la cour du Collège graphique
+On vous attend dans la cour du Collège graphique.
+
+Plus d'infos : [https://www.lyonbd.com/](https://www.lyonbd.com/)
+
