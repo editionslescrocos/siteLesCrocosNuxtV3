@@ -1,8 +1,7 @@
 ---
-title: "8 et 9 JUIN 2024 : FESTIVAL LYON BD"
-subtitle: Nous vous attendons dans la cour du Collège graphique Lyon 1er)
+title: NOTRE ACTUALITE
+subtitle: Salons et festivals
 description: ""
-image: /images/lyon-bd.png
-code: |
-  https://www.lyonbd.com/
+image: ""
+code: "\n"
 ---
