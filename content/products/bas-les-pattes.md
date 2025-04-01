@@ -1,5 +1,5 @@
 ---
-order: 10
+order: 1
 title: Bas les pattes
 price: 12.5
 imageProduct: /images/catalogue_template.jpg
