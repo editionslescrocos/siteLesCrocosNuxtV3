@@ -1,5 +1,5 @@
 ---
-order: 8
+order: 4
 title: Mon Doudou de Lyon
 price: 16.5
 imageProduct: /images/couv_pers_doudou.jpg
@@ -8,14 +8,13 @@ weight: 600
 taxes: TVAREDUITE
 image: ""
 images:
-  - "/images/doudou-1.jpg"
-  - "/images/doudou-2.jpg"
-  - "/images/doudou-3-jpg"
-  - "/images/doudou-4.jpg"
+  - /images/doudou-1.jpg
+  - /images/doudou-2.jpg
+  - /images/doudou-3-jpg
+  - /images/doudou-4.jpg
 invoiceInfos: ""
 informations: 5,5 %
 ---
-
 Pour retrouver son doudou, un petit ours est prêt à tout. Y compris s'embarquer à dos de pigeon pour survoler Lyon...
 
 - Auteurs : Alexandra Horvath et Stéphane Perraud
