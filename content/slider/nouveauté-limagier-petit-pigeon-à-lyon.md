@@ -1,9 +1,9 @@
 ---
 order: 1
-title: Enfin un Cherche et trouve sur Lyon !
+title: Découvrez le premier Cherche et trouve sur l'histoire de Lyon !
 subtitle: ""
 url: https://www.editionslescrocos.com/products
-image: /images/essai-couv-oblique.jpg
+image: /images/leo.jpg
 colorText: black
 colorBg: white
 ---
