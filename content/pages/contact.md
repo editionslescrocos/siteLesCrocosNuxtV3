@@ -11,12 +11,6 @@ image: null
 
 ## Via le formulaire
 
-
-
-
-
-
-
 </div>
 
 <div>
@@ -33,12 +27,3 @@ Nous sommes joignables du lundi au vendredi au [0784029906](tel:0784029906)
 </div>
 
 </div>
-
-## Par Instagram
-
-
-[https://www.instagram.com/editionslescrocos/](https://www.instagram.com/editionslescrocos/)
-
-
-</div>
-</two-columns>
