@@ -1,19 +1,21 @@
 ---
 title: Nous contacter
 subtitle: ""
-description:
-  Vous avez une remarque ? Une question ? Une idée ? Un projet ? Contactez-nous.
-  Nous vous répondrons dans les plus brefs délais.
-images:
-image:
+description: Vous avez une remarque ? Une question ? Une idée ? Un projet ?
+  Contactez-nous. Nous vous répondrons dans les plus brefs délais.
+images: null
+image: null
 ---
-
 <two-columns>
 <div>
 
 ## Via le formulaire
 
-<contact-form></contact-form>
+
+
+
+
+
 
 </div>
 
@@ -24,6 +26,19 @@ image:
 Nous sommes joignables du lundi au vendredi au [0784029906](tel:0784029906)
 
 ![Les crocos au téléphone](/images/crocosphone.jpg)
+
+</div>
+</two-columns>
+
+</div>
+
+</div>
+
+## Par Instagram
+
+
+[https://www.instagram.com/editionslescrocos/](https://www.instagram.com/editionslescrocos/)
+
 
 </div>
 </two-columns>
