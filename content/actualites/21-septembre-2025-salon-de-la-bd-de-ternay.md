@@ -1,5 +1,5 @@
 ---
-title: "21 septembre 2025 : salon de la BD de Ternay"
+title: "Dimanche 21 septembre 2025 : salon de la BD de Ternay"
 date: 2025-09-01T16:04:39.899
 image: /images/logo-ternay.jpg
 description: |
